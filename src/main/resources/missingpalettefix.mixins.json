@@ -3,10 +3,9 @@
   "minVersion": "0.8",
   "package": "btpos.mcmods.missingpalettefix.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "MissingPaletteFix.refmap.json",
-  "mixins": [
-  ],
+  "refmap": "missingpalettefix.refmap.json",
   "client": [
+    "MHashMapPalette"
   ],
   "injectors": {
     "defaultRequire": 1
